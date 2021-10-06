@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Widget</string>
+    <string-array name="jenis_hewan">
+    <item> Mobile Legend </item>
+        <item> PUBG </item>
+        <item> FreeFire </item>
+        <item> Valorant </item>
+        <item> Clash Of Clans </item>
+        <item> High Domino </item>
+    </string-array>
+</resources>

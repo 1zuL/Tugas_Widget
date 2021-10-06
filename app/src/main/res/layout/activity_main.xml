@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/top"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top Up Diamond Murah by ZuL Diamond"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:background="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Game Anda"
+        android:textColor="@color/white"
+        android:layout_marginTop="150dp"
+        android:textSize="15dp"
+        android:background="@color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mau Berapa Diamond?"
+        android:textColor="@color/white"
+        android:layout_marginTop="300dp"
+        android:textSize="15dp"
+        android:background="@color/black"
+        />
+    <ListView
+        android:id="@+id/listviu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="280dp"
+        android:background="@color/black"
+        />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/jenis_hewan"
+        android:outlineAmbientShadowColor="@color/black"
+        android:layout_marginTop="200dp"
+        />
+
+    <AutoCompleteTextView
+        android:id="@+id/auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="500dp"
+        android:completionHint="coba"
+        android:completionThreshold="1"
+        android:textColorHint="@color/white"
+        android:hint="Ketikkan Server Id Anda"
+        android:background="@color/black"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buton"
+        android:text="SETUJU"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="500dp"
+
+        />
+
+</RelativeLayout>
